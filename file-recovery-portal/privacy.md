@@ -1,6 +1,6 @@
 # File Recovery Portal privacy policy
 
-Effective date: November 9, 2026
+Effective date: November 18, 2026
 
 File Recovery Portal is published by MindtheApp. File scanning, recovery and drive copying
 take place on your computer. The app does not upload your drive image, recovered files,
@@ -29,10 +29,11 @@ replacement. Do not assume that all reports are anonymous or that all paths are 
 The app does not intentionally read file contents for crash reporting, but error text is
 sent and can include information supplied by the component that reported the error.
 
-The configured Sentry ingestion address is in its German service region. Sending a report
-also exposes the connection's IP address to the receiving service. Default personal-data
-collection in the SDK is disabled; that does not prevent the service from seeing a network
-connection. This policy does not promise IP-address removal or a particular retention period.
+The configured Sentry ingestion address is in its German (EU) service region. Default
+personal-data collection in the SDK is disabled, and the developer's Sentry account is set
+not to store IP addresses. No IP address is stored with crash reports or feedback. The
+receiving service still sees the connection's IP address while a report or message is
+being delivered. This policy does not promise a particular retention period.
 
 ## Optional feedback
 
